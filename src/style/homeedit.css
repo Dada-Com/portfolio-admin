@@ -1,0 +1,146 @@
+.maincontainer1 {
+    display: flex;
+    flex-direction: row;
+    width: 125rem;
+    height: 80rem;
+    /* background-color: aquamarine; */
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    /* background-color: blueviolet; */
+}
+
+/*For Form Validation Error*/
+input.inputerror,
+textarea.inputerror {
+    border-width: 3px;
+    border-color: red;
+}
+
+.form-error {
+    font-size: 2.2vmin;
+}
+
+.viewcontainer1 {
+    /* background-color: orange; */
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    width: 50%;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+#titleview1 {
+    margin-left: 10rem;
+}
+
+#titleview2 {
+    margin-left: 10rem;
+}
+
+.editcontainer1 {
+    /* background-color: orange; */
+    flex-direction: column;
+    width: 50%;
+    /* background-color: aqua; */
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+/* Lables Style*/
+/*   For Buttton Styling       */
+input[type=text] {
+    font-size: 1.2rem !important;
+}
+
+#pid,
+#name,
+#descrp,
+#tlink,
+#llink,
+#glink,
+#logo {
+
+    height: 5rem;
+}
+
+
+
+textarea {
+    font-size: 1.5rem !important;
+
+}
+
+label {
+    font-size: 1.5rem !important;
+}
+
+.datad1 {
+    border: 0.5rem solid rgba(255, 216, 1, 0.796);
+}
+
+.datad1 img {
+    width: 350px;
+    height: 350px;
+}
+
+.datad1 p {
+    font-size: 1.5rem;
+}
+
+.dataedit1 {
+    border: 0.5rem solid rgba(255, 216, 1, 0.796);
+}
+
+
+/*   For Buttton Styling       */
+/* .flexbutton {
+    display: flex;
+    flex-direction: row;
+} */
+
+.flexcolumn1 {
+    flex-direction: column;
+    height: 15vmax;
+}
+
+.flexcolumn1 #selectedimg {
+    font-size: 1.2rem;
+    flex-direction: row;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 2vmax;
+    width: 11rem;
+}
+
+.flexcolumn2 {
+    flex-direction: row;
+}
+
+.flexcolumn2 p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+
+.buttoncontain1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0rem;
+}
+
+
+.buttoncontain1 .btn {
+    margin-left: 5rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 2vmin;
+    font-weight: bolder;
+}
+
+#previewimg {
+    width: 300px;
+    height: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}

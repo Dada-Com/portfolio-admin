@@ -1,0 +1,26 @@
+/* .contactmain {
+    background-color: aquamarine;
+} */
+
+.card {
+    width: 70rem;
+    height: 15rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+.idedit {
+    font-size: 1.38rem;
+}
+
+.nameedit {
+    font-size: 1.38rem;
+}
+
+.emailedit {
+    font-size: 1.38rem;
+}
+
+.msgedit {
+    font-size: 1.38rem;
+}

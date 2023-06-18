@@ -1,0 +1,52 @@
+.main-masala {
+    margin-bottom: 2rem;
+    /* background-color: aqua; */
+}
+
+.carddirection {
+    display: flex;
+    flex-direction: row;
+}
+
+.transparent {
+    /*  background-color: rgba(255, 216, 1, 0.2);*/
+    background-color: rgba(0, 0, 0, 0.77);
+    /* color: aqua; */
+}
+
+.inside-mas-card {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 67rem;
+    height: 30rem;
+    color: white
+}
+
+.container-1 {
+    /*  background-color: aquamarine;*/
+    width: 35rem;
+    height: 30rem;
+
+}
+
+
+.container-1 .imgg {
+    height: 30rem;
+}
+
+.container-2 {
+    flex-direction: column;
+    width: 70rem;
+}
+
+.card-title {
+    font-size: 1.6rem;
+}
+
+.card-text {
+    font-size: 1.4rem;
+}
+
+.text {
+    font-size: 1.6rem;
+}

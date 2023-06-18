@@ -1,0 +1,77 @@
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    width: 125rem;
+    height: 80rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    /* background-color: blueviolet; */
+}
+
+
+/*For Form Validation Error*/
+input.inputerror,
+textarea.inputerror {
+    border-width: 3px;
+    border-color: red;
+}
+
+.viewcontainer {
+    /* background-color: orange;q */
+    padding: 2rem 3rem 2rem 3rem;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    width: 50%;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+
+.editcontainer {
+    /* background-color: yellow; */
+    padding: 2rem 3rem 2rem 3rem;
+    flex-direction: column;
+    width: 50%;
+    /* background-color: aqua; */
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+/*   For Buttton Styling       */
+input[type=text] {
+    font-size: 1.5rem !important;
+}
+
+#aid {
+    height: 5rem;
+}
+
+#aboutus {
+    height: 10rem;
+    font-size: larger;
+}
+
+#education {
+    height: 10rem;
+    font-size: larger;
+}
+
+#skills {
+    height: 10rem;
+    font-size: larger;
+}
+
+.buttoncontain {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+
+.buttoncontain .btn {
+    margin-left: 5rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 2vmin;
+    font-weight: bolder;
+
+}

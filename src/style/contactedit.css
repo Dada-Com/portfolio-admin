@@ -1,0 +1,139 @@
+.maincontainer4 {
+    display: flex;
+    flex-direction: row;
+    width: 125rem;
+    height: 80rem;
+    margin-top: 2rem;
+    margin-left: -5rem;
+    /* background-color: blueviolet; */
+}
+
+.editcontainer4 {
+    /* background-color: orange; */
+    padding: 2rem 3rem 2rem 15rem;
+    width: 80rem;
+    margin-right: 10rem;
+    margin-left: -5rem;
+}
+
+.editcontainer4 label {
+    font-size: 1.5rem;
+}
+
+/*For Form Validation Error*/
+input.inputerror,
+textarea.inputerror {
+    border-width: 3px;
+    border-color: red;
+}
+
+
+#titleview4 {
+    margin-left: 20rem;
+}
+
+.datad4 {
+    border: 1rem solid rgba(255, 216, 1, 0.796);
+    ;
+}
+
+.datad4 p {
+    font-size: 1.5rem;
+}
+
+.dataedit4 {
+    border: 1rem solid rgba(255, 216, 1, 0.796);
+}
+
+#contactid {
+    height: 6rem;
+}
+
+#address {
+    height: 6rem;
+}
+
+#contactno {
+    height: 6rem;
+}
+
+#email {
+    height: 6rem;
+}
+
+/*   For Buttton Styling       */
+input[type=text] {
+    font-size: 1.5rem !important;
+}
+
+.flexbutton4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcolumn14 {
+    flex-direction: column;
+}
+
+.flexcolumn14 .btn {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.flexcolumn24 {
+    flex-direction: column;
+}
+
+.flexcolumn24 p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+
+
+/*************For Scroll Bar***************************/
+/*.viewcontainer {
+    /* background-color: orange; 
+    padding: 2rem 3rem 2rem 3rem;
+}*/
+.buttoncontain4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+}
+
+
+.buttoncontain4 .btn {
+    margin-left: 5rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 2vmin;
+    font-weight: bolder;
+}
+
+
+.viewcontainer4 {
+    /* background-color: green;*/
+    border: 2rem solid;
+    width: 60rem;
+    margin-right: -50rem;
+    /* background-color: aqua; */
+    height: 45rem;
+    padding: 2rem 5rem 5rem 5rem;
+    margin-top: 2rem;
+    margin-left: -10rem;
+    border: 1rem solid rgba(255, 216, 1, 0.796);
+    font-size: 1.5rem;
+}
+
+.viewcontainer4 p {
+    font-size: 2rem;
+}
+
+.titlr {
+    margin-left: 9rem;
+    text-decoration: underline;
+}

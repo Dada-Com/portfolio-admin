@@ -1,0 +1,76 @@
+.contain1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 50rem;
+    background-color: rgba(30, 144, 255, 0.3);
+    width: 50rem;
+    height: 40rem;
+}
+
+.title {
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-left: 20rem;
+    font-weight: bolder;
+    color: black;
+}
+
+
+.uname {
+    flex-direction: row;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.adminid {
+    flex-direction: row;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.pass {
+    flex-direction: row;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.repass {
+    flex-direction: row;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+#button {
+    flex-direction: row;
+    margin-top: 2rem;
+    font-size: 2rem;
+    height: 4rem;
+    width: 12rem;
+    margin-left: 20rem;
+}
+
+/** Input component styling  */
+#username {
+    height: 4.5rem;
+    font-size: 1.5rem;
+}
+
+#adminid {
+    height: 4.5rem;
+    font-size: 1.5rem;
+}
+
+#password {
+    height: 4.5rem;
+    font-size: 1.5rem;
+}
+
+#reenterpassword {
+    height: 4.5rem;
+    font-size: 1.5rem;
+}

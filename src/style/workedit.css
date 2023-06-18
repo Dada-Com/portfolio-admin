@@ -1,0 +1,156 @@
+.maincontainer3 {
+    display: flex;
+    flex-direction: row;
+    width: 125rem;
+    height: 80rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    /* background-color: blueviolet; */
+}
+
+.editcontainer3 {
+    /* background-color: orange; */
+    margin-left: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#titleview {
+    margin-left: 10rem;
+    font-size: 2.5rem;
+}
+
+/*For Form Validation Error*/
+input.inputerror,
+textarea.inputerror {
+    border-width: 3px;
+    border-color: red;
+}
+
+/*   For Buttton Styling       */
+input[type=text] {
+    font-size: 1.5rem !important;
+}
+
+#workno {
+    height: 5rem;
+}
+
+#tittle {
+    height: 5rem;
+}
+
+#githublink {
+    height: 5rem;
+}
+
+.datad {
+    border: 0.5rem solid rgba(255, 216, 1, 0.796);
+}
+
+.datad p {
+    font-size: 1.5rem;
+}
+
+.dataedit {
+    border: 0.5rem solid rgba(255, 216, 1, 0.796);
+}
+
+#descrip {
+    height: 8rem;
+}
+
+/*   For Buttton Styling       */
+.flexbutton {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcolumn1 {
+    flex-direction: column;
+}
+
+.flexcolumn1 #selectedimg2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    height: 3rem;
+    width: 15rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.flexcolumn2 {
+    flex-direction: column;
+}
+
+.flexcolumn2 p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.dataedit1 img {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+#previewimg {
+    height: 12vw;
+    width: 20vw;
+}
+
+/*************For Scroll Bar***************************/
+/*.viewcontainer {
+    /* background-color: orange; 
+    padding: 2rem 3rem 2rem 3rem;
+}*/
+
+/* Box styles */
+.viewcontainer3 {
+    border: none;
+    padding: 5px;
+    margin-right: -15rem;
+    width: 120rem;
+    height: 50rem;
+    /* background-color: aqua; */
+    /* margin-bottom: 5rem; */
+    margin-top: 2rem;
+    /* margin-left: 2rem; */
+    overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px gray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: grey;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+
+.buttoncontain3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+}
+
+
+.buttoncontain3 .btn {
+    margin-left: 5rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 2vmin;
+    font-weight: bolder;
+}
