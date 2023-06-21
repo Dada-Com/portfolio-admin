@@ -54,7 +54,7 @@ const contactedit = ({ data2 }) => {
     const updatehandle = async (e) => {
         e.preventDefault();
         const allInputvalue = {
-            descrip: values.name,
+            descrip: values.descrip,
             address: values.address,
             contactno: values.contactno,
             email: values.email,

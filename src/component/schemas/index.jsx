@@ -25,6 +25,6 @@ export const HomeSchema = Yup.object({
     aid: Yup.number().required("Please enter your about us ID"),
     aboutus: Yup.string().min(10).max(1500).required("Please enter some about you"),
     education: Yup.string().min(10).max(1500).required("Please enter some education"),
-    skills: Yup.string().min(10).max(1000).required("Please enter some about your skills")
+    skills: Yup.string().min(10).max(2000).required("Please enter some about your skills")
 
 })
